@@ -1,0 +1,73 @@
+.createPost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+ 
+
+}
+
+.createPost-loggedIn {
+    background-color: white;
+    width : 100%;
+    max-width : 600px;
+    border-radius: 7px;
+    padding : 12px 16px;
+}
+
+.createPost-loggedIn > p {
+    font-family : 'Roboto Mono'
+}
+
+
+.createpost-textarea {
+    border : none;
+    width : 100%;
+    font-size: 14px;
+    outline: none;
+    margin-top: 10px;
+    font-family: 'Roboto Mono' -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.createpost-textarea:focus {
+    outline: none;
+}
+
+.postcomment{
+    margin-left: 10px;
+    color :#ece2e1;
+    font-size: 18px;
+}
+
+.createPost-imageUpload > input {
+    display: none;
+    
+}
+
+.createPost-bottom {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.createPost-uploadBtn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    
+} 
+
+.createPost-uploadBtn:focus {
+    outline: none;
+}
+
+#imagePreview {
+display: none;
+max-height: 80px;
+margin : 12px 0px;
+border-radius: 4px;
+}

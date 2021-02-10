@@ -1,0 +1,16 @@
+.navbar {
+    display : flex;
+    justify-content: space-between;
+    padding :12px 24px;
+    background-color: #fff;
+}
+
+.pentagram {
+    font-size: 22px;
+    font-family: 'Potta One', cursive;
+    }
+
+    .navbar_photo {
+        height : 40px;
+        border-radius: 50%;
+    }

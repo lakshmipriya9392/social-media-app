@@ -1,0 +1,46 @@
+
+.post {
+    background-color: white;
+    max-width : 600px;
+    width : 90vw;
+    padding : 16px;
+}
+
+.post__header {
+    display: flex;
+    justify-content: space-between;
+    align-items : center;
+}
+
+.post__headerLeft {
+    display : flex;
+    font-weight: 600;
+}
+
+.post__profilePic {
+    height : 40px;
+    border-radius: 50%;
+}
+
+.post__delete {
+    border : none;
+    background-color: white;
+    cursor : pointer
+}
+.post__delete:focus {
+    outline : none;
+}
+
+.post__photoURL {
+    width : 100%;
+    object-fit: cover;
+    margin : 16px 0;
+}
+.post__caption {
+    display: flex;
+}
+
+.post__captionUsername {
+    margin-right: 4px;
+    font-weight: 600;
+}

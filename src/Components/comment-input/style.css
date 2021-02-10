@@ -1,0 +1,31 @@
+.commentInput {
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentInput-textarea {
+    border : none;
+    width : 100%;
+    resize: none;
+    margin : 8px 0;
+    font-size: 14px;
+    font-family: 'Roboto Mono' -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.commentInput-textarea:focus {
+    outline: none;
+}
+
+.commentInput-button {
+    border-color: white;
+    border : none;
+    cursor: pointer;
+}
+
+.commentInput-button:focus {
+    outline : none;
+}
