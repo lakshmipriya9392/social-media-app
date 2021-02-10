@@ -8,7 +8,7 @@ import { UserContext } from '../../contexts/user';
 
 export default function Post({profileUrl, username, id, photoURL, caption, comments}) {
 
-    const [user, setUser] = useContext(UserContext).user;
+    const [user] = useContext(UserContext).user;
 
 const deletePost = () => {
     // This function will delete the image from firebase storage

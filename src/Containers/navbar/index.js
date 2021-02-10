@@ -1,10 +1,10 @@
-import React, {useState, useContext} from 'react'
+import React, { useContext} from 'react'
 import SignIn from '../../Components/signIn'
 import { UserContext } from '../../contexts/user'
 import './style.css'
 export default function Navbar() {
 
-const [user, setUser] = useContext(UserContext).user;
+const [user] = useContext(UserContext).user;
 
     return (
         <div className = 'navbar'>
