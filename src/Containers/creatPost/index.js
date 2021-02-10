@@ -8,7 +8,7 @@ import './style.css'
 import  firebase from 'firebase';
 export default function CreatePost() {
 
-    const [user, setUser] = useContext(UserContext).user
+    const [user] = useContext(UserContext).user
     const [caption, setCaption] = useState("")
     const [image, setImage] = useState(null)
     const [progress, setProgress] = useState(0);
@@ -79,7 +79,7 @@ export default function CreatePost() {
         
             <input id = "fileInput" type = "file" accept = "image/*" onChange = {handleChange} />
         </div>
-            <button className = "createPost-uploadBtn" onClick = {handleUpload} style = {{ color : caption ? "#000" : "lightgrey"}} > {`Upload ${progress != 0 ? progress : "" }`} </button>
+            <button className = "createPost-uploadBtn" onClick = {handleUpload} style = {{ color : caption ? "#000" : "lightgrey"}} > {`Upload ${progress !== 0 ? progress : "" }`} </button>
             </div>
             </div>
         
