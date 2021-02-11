@@ -4,7 +4,7 @@ import { UserContext } from '../../contexts/user'
 import './style.css'
 export default function Navbar() {
 
-const [user] = useContext(UserContext).user;
+const [user, setUser] = useContext(UserContext).user;
 
     return (
         <div className = 'navbar'>
