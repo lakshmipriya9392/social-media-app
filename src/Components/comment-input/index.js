@@ -6,8 +6,8 @@ import { db } from '../../firebase';
 export default function CommentInput({comments, id}) {
 
     const [comment, setComment] = useState("");
-    const [user, setUser] = useContext(UserContext).user
-    const [commentArray, setCommentArray] = useState(comments ? comments : [])
+    const [user] = useContext(UserContext).user
+    const [commentArray] = useState(comments ? comments : [])
 
 const addComment  = () => {
     //add comment to the post info
